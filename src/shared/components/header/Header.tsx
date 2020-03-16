@@ -1,12 +1,14 @@
 import React from 'react';
-import './Header.scss';
 import Nav from '../nav/Nav';
+import './Header.scss';
 
 const Header = () => {
   return (
-    <header>
-      <Nav />
-    </header>
+    <div className="max-width-page">
+      <header>
+        <Nav />
+      </header>
+    </div>
   );
 };
 
